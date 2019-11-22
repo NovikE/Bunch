@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.novik.by/ribbons_schema"
+	xmlns:novik="http://www.novik.by/ribbons_schema"
+	elementFormDefault="qualified">
+
+	<xs:element name="list_of_ribbons" type="novik:list_of_ribbons_type"/>
+
+	<xs:complexType name="list_of_ribbons_type">
+		<xs:sequence>
+			<xs:element name="ribbon" type="novik:ribbon_type"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ribbon_type">
+		<xs:all>
+			<xs:element name="id" type="xs:int"/>
+			<xs:element name="price" type="xs:double"/>
+			<xs:element name="color" type="xs:string"/>
+            <xs:element name="length" type="xs:int"/>
+		</xs:all>
+	</xs:complexType>
+
+</xs:schema>

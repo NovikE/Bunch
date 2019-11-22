@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list_of_ribbons
+        xmlns="http://www.novik.org/ribbons_schema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.novik.by/ribbons_schema ribbons_schema.xsd">
+    <ribbon id="1">
+        <id>1</id>
+        <price>5.95</price>
+        <color>red</color>
+        <length>20</length>
+    </ribbon>
+    <ribbon id="2">
+        <id>2</id>
+        <price>7.95</price>
+        <color>blue</color>
+        <length>30</length>
+    </ribbon>
+    <ribbon id="3">
+        <id>3</id>
+        <price>8.95</price>
+        <color>white</color>
+        <length>40</length>
+    </ribbon>
+</list_of_ribbons>
